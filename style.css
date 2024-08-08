@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffff00;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.trending {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
